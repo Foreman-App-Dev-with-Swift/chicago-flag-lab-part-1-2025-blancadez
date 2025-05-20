@@ -50,12 +50,13 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .frame(width: 450, height: 50)
                 Rectangle()
-                    .foregroundColor(.white)
+                    .foregroundColor(Color(hue: 0.57, saturation: 0.495, brightness: 0.967))
+                    .frame(width: 450, height: 50)
                     .frame(width: 450, height: 50)
                 ZStack {
                     Rectangle()
-                        .foregroundColor(Color(hue: 0.57, saturation: 0.495, brightness: 0.967))
-                        .frame(width: 450, height: 50)
+                        .foregroundColor(.white)
+                        .frame(width: 450, height: 90)
                     HStack {
                         Image("chicagoStar")
                             .resizable()
